@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Calculator {
+public interface Calculator<T> {
+    double calculateFees(T clubID);
 }
