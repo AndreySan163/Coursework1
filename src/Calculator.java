@@ -1,3 +1,3 @@
-public interface Calculator<T> {
+public interface Calculator<T extends Number> {
     double calculateFees(T clubID);
 }
